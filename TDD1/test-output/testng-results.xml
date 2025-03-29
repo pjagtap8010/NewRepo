@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-28T17:07:02 IST" name="Default suite" finished-at="2025-03-28T17:07:09 IST" duration-ms="6516">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T17:07:02 IST" name="Default test" finished-at="2025-03-28T17:07:09 IST" duration-ms="6516">
+      <class name="testLayer.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testLayer.HomePageTest@30c15d8b]" started-at="2025-03-28T17:07:02 IST" name="setup" finished-at="2025-03-28T17:07:08 IST" duration-ms="5705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_user_able_to_enter()[pri:0, instance:testLayer.HomePageTest@30c15d8b]" started-at="2025-03-28T17:07:08 IST" name="verify_user_able_to_enter" finished-at="2025-03-28T17:07:09 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_enter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.HomePageTest@30c15d8b]" started-at="2025-03-28T17:07:09 IST" name="tearDown" finished-at="2025-03-28T17:07:09 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testLayer.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+package testBase;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import pageLayer.HomePage;
+
+public class TestBase {
+
+	public WebDriver driver;
+	public HomePage home;
+	
+	
+	 
+		@BeforeTest
+		 public void setup() {
+			
+		 driver = new ChromeDriver();
+	     driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php"); 
+	     driver.manage().window().maximize();
+	     driver.manage().deleteAllCookies();
+	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	     
+	     home = new HomePage();
+			 
+		 }
+		 
+		@AfterTest
+		 public void tearDown() {
+			 
+		driver.quit();
+			 
+		 }
+		
+		
+		
+		
+}

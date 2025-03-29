@@ -1,0 +1,23 @@
+package testLayer;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+public class HomePageTest {
+	
+	 WebDriver driver;
+	 
+	@BeforeTest
+	 public void setup() {
+		 WebDriver driver = new ChromeDriver();
+		 
+		 
+	 }
+	 
+	@AfterTest
+	 public void tearDown() {
+		 
+		 
+	 }
+
+}
